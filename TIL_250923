@@ -1,0 +1,33 @@
+git
+
+Team-Project
+
+#내가 팀원일 때
+
+1. 메일을 받아서 팀 repo로 들어감
+2. 팀장의 요구사항 확인
+3. Issue 작성
+    - 뭘 할건지 개요, 해야할 것, 레퍼런스 작성
+        TO DO - [ ] <- 이렇게 작성하면 체크 박스가 생김
+4. Pork를 통해 팀 repo를 내 repo로 당겨옴
+5. jeongmee-bae/Team-Project 이런식으로 repo가 생김
+6. <>Code에서 HTTPS 복사 (주소가 github.com/내 닉네임/팀 레포이름)
+7. Git bash로 돌아와서 내 현재위치 확인 후 git clone HTTPS주소
+8. 팀 프로젝트니까 branch를 만들어서 해야함(브랜치 만들어서 내 repo로 push)
+9. git branch로 일단 branch확인
+10. git branch 만들 branch 이름
+11. git switch new_brnach (branch 이동)
+12. touch new_file (새로운 file 생성)
+13. vi new_file (file에서 작업하기)
+14. 작업 후 코드를 쳤다면 python new_file로 실행확인
+15. git add new_file
+16. git commit으로 커밋해주기
+     (내가 무엇을 했는지 파일을 안들어가도 볼 수있도록 작성)
+17. branch에 push : git push -u origin new_branch (로컬 branch랑 이름 똑같이)
+18. 깃으로 들어와서 new_branch로 바꾸면 new_file을 볼 수 있음
+19. 확인했으면 Pull requests로 이동
+20. 창이 안뜬다면 New pull request 누르고 branch 변경 후 pull하면 됨
+21. branch 하고 내가 팀 repo에서 작성했던 Issue의 고유번호 (#번호)를 내용에 작성
+22. 팀장에게 확인 요청
+
+
